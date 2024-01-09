@@ -1,0 +1,181 @@
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  
+}
+.center-image {
+    display: block;
+    margin: 0 auto; /* This centers the image horizontally */
+}
+h1{
+  font-size: 3rem;
+  color: #f5f5f5;
+  text-shadow: 2px 2px 3px #808080;
+   text-transform: uppercase;  
+}
+h3{
+  font-size: 1.3rem;
+  color: #f4f0ec ;
+  /* text-transform: uppercase;  */
+}
+hr{
+  max-width: 50px;
+  border-width: 3px;
+  border-color:#bf94e4; 
+}
+.buffer{
+  height: 1.5rem;
+}
+.buffer2{
+  height: 5rem;
+}
+.btn{
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+.btn-primary{
+  background-color: #bf94e4;  
+    border-color: #bf94e4;  
+    --bs-btn-hover-bg: #30d5c8; 
+    --bs-btn-hover-border-color: #30d5c8;
+}
+.btn-primary:hover{
+  /* background-color: #ee4b08;
+  border-color: #ee4b08; */
+  border-width: 4px;
+} 
+.btn-xl{
+  padding: 0.75rem 1.4rem;
+}
+ .social-icons {
+            position: absolute;
+            top: 30px;
+            right: 50px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .social-icon img {
+            width: 30px; /* Adjust the width of the icons as needed */
+            height: 30px; /* Adjust the height of the icons as needed */
+            border-radius: 50%; /* Optional: Adds rounded corners to the icons */
+        }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+  background: url(background.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 100%;
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+  max-width: 1170px;
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #24262b;
+  padding: 30px 0;
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin: 35px;
+  font-weight: 500;
+  position: relative;
+  
+}
+
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px  ;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px ;
+}
+
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0, 2);
+  margin: 0 15px 15px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff ;
+}
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px ;
+  }
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+  }
+}
+.copyright {
+  text-align: center;
+  color: #bbbbbb;
+  font-size: 14px;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.copyright p {
+  margin: 0;
+}
+
